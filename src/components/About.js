@@ -3,7 +3,7 @@ import React from "react";
 function About({ image, about }) {
     return (
         <>
-            <aside>
+             <aside>
                 {image ? (
                     <img src={image} alt="blog logo" />
                 ) : (
